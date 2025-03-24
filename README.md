@@ -5,12 +5,13 @@
 ![Docker](https://img.shields.io/badge/Docker-24.0%2B-cyan)
 
 ## Description
+
 Ce projet vise à bloquer les publicités YouTube en modifiant les payloads Protobuf au niveau réseau.
 
 ## Installation rapide
 
 ```bash
-git clone https://github.com/votrecompte/YouTube-Protobuf-AdBlock
+git clone https://github.com/valorisa/YouTube-Protobuf-AdBlock
 cd YouTube-Protobuf-AdBlock/docker
 docker compose up -d --build
 ```
