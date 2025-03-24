@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  mitmproxy:
+    build: ./mitmproxy
+    network_mode: "host"
+    volumes:
+      - ./mitmproxy/config/ca:/root/.mitmproxy
+    restart: unless-stopped
